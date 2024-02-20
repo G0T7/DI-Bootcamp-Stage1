@@ -1,6 +1,12 @@
 html {
     font-size: 10px;
   }
+
+ * {
+    margin: 0;
+    padding: 5px;
+    border: 10px;
+  }
   
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
@@ -60,6 +66,7 @@ html {
     background: white;
     padding: 10px;
     margin: 0;
+    transition: all 1s;
   }
   
   #img-caption {
@@ -94,3 +101,15 @@ html {
     margin: 0 auto 50px auto;
     text-align: left;
   }
+
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img:hover {
+  transform: scale(1.1);
+  
+}
+
